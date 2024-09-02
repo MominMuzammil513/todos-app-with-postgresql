@@ -1,4 +1,4 @@
--- CREATE DATABASE todoapp;
+CREATE DATABASE IF NOT EXISTS todoapp;
 
 -- Create todos table
 CREATE TABLE IF NOT EXISTS todos (

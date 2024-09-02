@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "setup-db": "node create-database.js",
     "dev": "nodemon server.js",
     "deploy": "node server.js",
     "build": "react-scripts build",
