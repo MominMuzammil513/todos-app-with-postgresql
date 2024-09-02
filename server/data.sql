@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS todoapp;
+-- CREATE DATABASE todoapp;
 
 -- Create todos table
 CREATE TABLE IF NOT EXISTS todos (
@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS todos (
     user_email VARCHAR(255),
     title VARCHAR(30),
     progress INT,
-    date VARCHAR(300)
+    date DATE
+    -- date VARCHAR(300)
 );
 
 -- Create users table
